@@ -1,8 +1,10 @@
 require "ultra_pending/version"
 
 module UltraPending
+  ADVICE = 'Pending tests are a design smell'
+
   def pending(*args)
-    raise args.map(&:to_s).join(' ')
+    raise ADVICE
   end
 
   extend self
