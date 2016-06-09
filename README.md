@@ -2,7 +2,7 @@
 
 Are you totally over the tired old process of weeding pending tests out of your projects? This, my good friend, may be the solution to all of your problems.
 
-By injecting `UltraPending` into your test suite's environment, your "pending" tests will begin showing a better behavior when tests are run: they will fail.
+By injecting `UltraPending` into your test suite's environment, your "pending" tests will begin showing a better behavior when tests are run: they will fail, and some helpful advice is spit out as the failure message.
 
 ## Installation
 
